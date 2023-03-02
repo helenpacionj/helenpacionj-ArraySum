@@ -7,7 +7,14 @@ public class ArraySum {
      * @return the sum of all values in arr.
      */
     public int sum(int[] arr){
+        //return 0;
 
-        return 0;
+        int Sum=0;
+
+        for(int ctr=0; ctr<arr.length; ctr++) {
+            Sum += arr[ctr];
+        }
+
+        return(Sum);
     }
 }
